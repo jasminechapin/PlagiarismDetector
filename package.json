@@ -1,0 +1,32 @@
+{
+  "name": "plagiarism-detector",
+  "version": "1.0.0",
+  "description": "Term Project Repository for Team 24",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.12.7",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.14.9",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register tests/UserFile.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ccs.neu.edu/CS-4530-5500-Fall-2020-Term-Project/Team-24.git"
+  },
+  "author": "team24",
+  "license": "ISC"
+}

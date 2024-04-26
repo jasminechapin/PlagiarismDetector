@@ -1,0 +1,146 @@
+@import "antd/dist/antd.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.drawerButton {
+  height: 100vh;
+  width: 10px;
+  position: absolute;
+  padding-left: 0px;
+}
+
+.plagiarismCode {
+  background-color: #ffc2c2;
+}
+
+.code {
+  height: auto;
+}
+
+.noWrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 190px;
+}
+
+.showMore {
+  width: 100%
+}
+
+.codeModal {
+  max-width: 1000px
+}
+
+.code::-webkit-scrollbar {
+  display: none;
+}
+
+.compareCode {
+  height: fit-content;
+  min-height: 1000px;
+}
+
+.vertical-scrollable { 
+  overflow-y: scroll;  
+  overflow-x: clip;
+  max-height: 350px;
+  height: auto;
+} 
+
+.replaceButton {
+  margin-bottom: 15px;
+}
+
+.header {
+  background-color: #282c34;
+  height: auto;
+  text-align: center;
+  padding: 8px;
+}
+
+.body {
+  overflow-y: scroll !important;
+  height: 100vh;
+  scroll-behavior: auto;
+}
+
+.headerText {
+  color: white;
+}
+
+.right-align {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.mainArea {
+  padding: 20px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.UploadArea {
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-height: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.CompareButton {
+  margin-top: 10px;
+  position: absolute;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.App {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  max-width: 85%;
+}
+
+.App2 {
+  margin: auto;
+  padding: 10px;
+  max-width: 95%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
